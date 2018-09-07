@@ -9,11 +9,11 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['migration_none_found']		= 'ไม่พบการโยกย้าย';
-$lang['migration_not_found']		= 'ไม่พบข้อมูลการโยกย้าย หมายเลขเวอร์ชั่น: %s.';
-$lang['migration_sequence_gap']		= 'มีช่องว่างในลำดับการโยกย้ายที่อยู่ใกล้หมายเลขรุ่นคือ: %s.';
-$lang['migration_multiple_version']	= 'มีการโยกย้ายหลายรายการที่มีหมายเลขรุ่นเดียวกัน: %s.';
-$lang['migration_class_doesnt_exist']	= 'ไม่พบ Migration Class "%s"';
-$lang['migration_missing_up_method']	= 'Migration class "%s" ไม่มีเมธอด "up"';
-$lang['migration_missing_down_method']	= 'Migration class "%s" ไม่มีเมธอด "down"';
-$lang['migration_invalid_filename']	= 'การโยกย้าย "%s" มีไฟล์ที่ไม่ถูกต้อง';
+$lang['migration_none_found'] = 'ไม่พบการ Migration';
+$lang['migration_not_found'] = 'ไม่พบข้อมูล Migration หมายเลขเวอร์ชัน: %s.';
+$lang['migration_sequence_gap'] = 'มีช่องว่างในลำดับของ Migration ที่อยู่ใกล้หมายเลขรุ่นคือ: %s.';
+$lang['migration_multiple_version'] = 'มีการ Migration หลายรายการที่มีหมายเลขรุ่นซ้ำกัน: %s.';
+$lang['migration_class_doesnt_exist'] = 'ไม่พบ Migration Class "%s"';
+$lang['migration_missing_up_method'] = 'Migration class "%s" ไม่มีเมธอด "up"';
+$lang['migration_missing_down_method'] = 'Migration class "%s" ไม่มีเมธอด "down"';
+$lang['migration_invalid_filename'] = 'Migration "%s" มีชื่อไฟล์ที่ไม่ถูกต้อง';
